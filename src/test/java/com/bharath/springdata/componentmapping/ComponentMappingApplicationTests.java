@@ -26,6 +26,7 @@ class ComponentMappingApplicationTests {
                         .streetaddress("Spicewood Springs")
                         .country("USA")
                         .state("TEXAS")
+                        .zipCode("78750")
                         .build())
                 .build();
         employeeRepository.save(employee);
